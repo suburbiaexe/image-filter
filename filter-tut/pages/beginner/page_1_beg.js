@@ -9,17 +9,12 @@ export default function BegPageOne() {
         <div className={styles.container}>
             <Head>
                 <title>Image Filtering for Beginners</title>
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-				<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&display=swap" rel="stylesheet" />
             </Head>
 
-            <div className={pageStyles.pageContainer}>
+            <div className={pageStyles.mainContainer}>
                 <p className={pageStyles.mainText}>
                     We can think of images as a coordinate system of pixels, where each pixel represents a color value.
                 </p>
-
-                <Arrows prevPage="/" nextPage="/" />
 
                 <div className={pageStyles.bottomContainer}>
                     <p className={pageStyles.subtext}>
@@ -27,11 +22,13 @@ export default function BegPageOne() {
                     </p>
                     <Image
                         src="/images/origin.png"
-                        width={250}
-                        height={250}
+                        width={350}
+                        height={350}
                         alt="4 by 4 grid with a green dot in the top left square with arrows going down and right."
                     />
                 </div>
+
+                <Arrows prevPage="/" nextPage="/beginner/page_2_beg" pageNum={1} />
             </div>
         </div>
     );

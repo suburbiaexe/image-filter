@@ -13,9 +13,19 @@ a {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: Mostin;
+  src: url(/fonts/MostinMedium-GOAvP.otf);
+}
+
+@font-face {
+  font-family: Gill Sans;
+  src: url(fonts/GillSans.ttc);
+}
+
 :root {
-  --accent-font: 'Oswald', sans-serif;
-  --main-font: 'Open Sans', sans-serif;
+  --accent-font: Mostin, sans-serif;
+  --main-font: Gill Sans, sans-serif;
   --green: #848471;
   --light-pink: #FEC5BB;
   --accent-pink: #FE725D;

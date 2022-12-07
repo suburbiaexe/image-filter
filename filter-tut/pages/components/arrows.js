@@ -8,6 +8,7 @@ export default function PageArrows(props) {
             <Link href={props.prevPage}>
                 <span className={styles.arrow}>&larr;</span>
             </Link>
+            <p className={styles.page}>(Page {props.pageNum})</p>
             <Link href={props.nextPage}>
                 <span className={styles.arrow}>&rarr;</span>
             </Link>

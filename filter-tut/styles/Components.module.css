@@ -1,10 +1,8 @@
 .container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-top: 0;
-    margin-bottom: 0;
-    max-height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .arrow {
@@ -13,4 +11,9 @@
 
 .arrow:hover {
     color: var(--accent-pink);
+}
+
+.page {
+    font-family: var(--main-font);
+    font-size: large;
 }
