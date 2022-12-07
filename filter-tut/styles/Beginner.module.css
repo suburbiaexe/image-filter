@@ -1,0 +1,33 @@
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainText {
+    font-family: var(--main-font);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.bottomContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtext {
+    font-family: var(--main-font);
+    font-size: 45px;
+    text-align: right;
+    width: 35%;
+    padding-right: 1em;
+    margin-top: 0.5em;
+}
+
+.greenAccentText {
+    font-weight: 700;
+    color: var(--green);
+}

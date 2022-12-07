@@ -1,0 +1,22 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --accent-font: 'Oswald', sans-serif;
+  --main-font: 'Open Sans', sans-serif;
+  --green: #848471;
+  --light-pink: #FEC5BB;
+  --accent-pink: #FE725D;
+}
