@@ -12,18 +12,18 @@ export default function BegPageTwo() {
             </Head>
 
             <div className={pageStyles.mainHorzContainer}>
-                <p className={pageStyles.mainSideText}>
+                <p className={pageStyles.mainLeftText}>
                     Filtering works by computing some function over <span className={pageStyles.bold}>each pixel’s</span> surrounding area, starting at the origin.
                 </p>
                 <Image
                     src="/images/beg_func.png"
                     width={425}
                     height={400}
-                    alt="Image"
+                    alt="Illustration of a smaller filter over a larger image."
                 />
             </div>
 
-            <Arrows prevPage="/beginner/page_1_beg" nextPage="/" pageNum={2} />
+            <Arrows prevPage="/beginner/page_1_beg" nextPage="/beginner/page_3_beg" pageNum={2} />
         </div>
     );
 }
