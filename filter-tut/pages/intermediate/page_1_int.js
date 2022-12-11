@@ -8,7 +8,7 @@ export default function BegPageOne() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Image Filtering for Beginners</title>
+                <title>Intermediate Image Filtering</title>
             </Head>
 
             <div className={pageStyles.mainContainer}>
@@ -18,7 +18,7 @@ export default function BegPageOne() {
 
                 <div className={pageStyles.bottomContainer}>
                     <p className={pageStyles.subtext}>
-                        Choose an origin point (0,0). We’ll be using the <span className={pageStyles.greenAccentText}>top left</span> pixel as (0,0).
+                        Choose an origin point (0,0). Common origins include the top left and bottom left pixels. We’ll be using the <span className={pageStyles.greenAccentText}>top left</span> pixel as (0,0). 
                     </p>
                     <Image
                         src="/images/origin.png"
@@ -28,7 +28,7 @@ export default function BegPageOne() {
                     />
                 </div>
 
-                <Arrows prevPage="/" nextPage="/beginner/page_2_beg" pageNum={1} />
+                <Arrows prevPage="/" nextPage="/intermediate/page_2_int" pageNum={1} />
             </div>
         </div>
     );

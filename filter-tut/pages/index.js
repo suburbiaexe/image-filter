@@ -21,7 +21,7 @@ export default function Home() {
 							BEGINNER
 						</div>
 					</Link>
-					<Link href="/">
+					<Link href="/intermediate/page_1_int">
 						<div className={styles.button}>
 							INTERMEDIATE
 						</div>
