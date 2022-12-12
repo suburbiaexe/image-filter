@@ -24,7 +24,7 @@ export default function IntPageNine() {
                     .
                 </p>
                 <Image
-                    src="/images/rgb_filtered.png"
+                    src="/images/rgba_final.png"
                     width={425}
                     height={400}
                     alt="Illustration a RGBA image with new RGB values after filtering"

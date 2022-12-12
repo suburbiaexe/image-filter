@@ -15,7 +15,7 @@ a {
 
 @font-face {
   font-family: Mostin;
-  src: url(/fonts/MostinMedium-GOAvP.otf);
+  src: url(fonts/MostinMedium-p75Rv.ttf);
 }
 
 @font-face {
@@ -27,6 +27,9 @@ a {
   --accent-font: Mostin, sans-serif;
   --main-font: Gill Sans, sans-serif;
   --green: #848471;
-  --light-pink: #FEC5BB;
+  --light-pink: #F8EDEB/*#FEC5BB*/;
   --accent-pink: #FE725D;
+  --r: #F75D4F;
+  --g: #87966F;
+  --b: #003DAC;
 }

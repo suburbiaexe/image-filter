@@ -4,11 +4,11 @@ import styles from "../../styles/Home.module.css";
 import pageStyles from "../../styles/Subpages.module.css";
 import Arrows from "../components/arrows.js";
 
-export default function IntPageEight() {
+export default function AdvPageSeven() {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Intermediate Image Filtering</title>
+                <title>Advanced Image Filtering</title>
             </Head>
 
             <div className={pageStyles.mainContainer}>
@@ -25,18 +25,18 @@ export default function IntPageEight() {
                     className={pageStyles.mainTextSmaller}
                     style={{ fontSize: "50px" }}
                 >
-                    Then, we center the filter over the origin pixel and
-                    calculate the{" "}
+                    As a reminder, convolution works by centering the kernel
+                    over an image pixel and replacing that pixel’s value with a{" "}
                     <span className={pageStyles.pinkAccentText}>
-                        new, filtered RGB value of the origin
-                    </span>{" "}
-                    by computing a weighted sum of each surrounding pixel's RGB
-                    values, using the filter values as weights.
+                        weighted sum of itself and surrounding pixels
+                    </span>
+                    , using the filter values as weights, and repeating this
+                    process for every pixel in the image.
                 </p>
                 <Arrows
-                    prevPage="/intermediate/page_7_int"
-                    nextPage="/intermediate/page_9_int"
-                    pageNum={8}
+                    prevPage="/advanced/page_6_ad"
+                    nextPage="/advanced/page_8_ad"
+                    pageNum={7}
                 />
             </div>
         </div>

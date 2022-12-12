@@ -21,10 +21,10 @@ export default function IntPageTwo() {
 
                 <Image
                     src="/images/rgba.png"
-                    width={450}
+                    width={425}
                     height={140}
                     alt="Array of 4 slots containing R, G, B, A respectively."
-                    style={{ paddingBottom: "1em" }}
+                    style={{ paddingBottom: "2em" }}
                 />
 
                 <Arrows
