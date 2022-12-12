@@ -14,9 +14,10 @@ export default function BegPageThree() {
             <div className={pageStyles.mainContainer}>
                 <p className={pageStyles.mainTextSmaller}>
                     Because the filter function is computed over each pixel in
-                    an image, the function may end up being computed over "out
-                    of bounds" pixels when the filter aligns with an edge pixel.
-                    To counteract this, we can "pad" the image with 0s.
+                    an image, the function may end up being computed over
+                    &quot;out of bounds&quot; pixels when the filter aligns with
+                    an edge pixel. To counteract this, we can &quot;pad&quot;
+                    the image with 0s.
                 </p>
                 <div className={pageStyles.bottomContainer}>
                     <Image

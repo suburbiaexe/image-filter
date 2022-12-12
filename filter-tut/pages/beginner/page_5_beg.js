@@ -18,22 +18,34 @@ export default function BegPageFive() {
                         width={325}
                         height={325}
                         alt="Illustration of a 0-padded image where each pixel has a number value."
-                        style={{padding:'1em'}}
+                        style={{ padding: "1em" }}
                     />
                     <Image
                         src="/images/filter.png"
                         width={200}
                         height={200}
                         alt="Illustration of a 3 by 3 filter where each pixel says one-ninth."
-                        style={{padding:'1em'}}
+                        style={{ padding: "1em" }}
                     />
                 </div>
 
-                <p className={pageStyles.mainTextSmaller} style={{fontSize:'40px'}}>
-                    We start with a 0-padded image and a <span className={pageStyles.pinkAccentText}>filter</span>, with 'pixels' containing values calculated by the function we want to apply all over the image. Different filters use different functions, which produce different filter values. The above filter will blur the image.
+                <p
+                    className={pageStyles.mainTextSmaller}
+                    style={{ fontSize: "40px" }}
+                >
+                    We start with a 0-padded image and a{" "}
+                    <span className={pageStyles.pinkAccentText}>filter</span>,
+                    with &apos;pixels&apos; containing values calculated by the
+                    function we want to apply all over the image. Different
+                    filters use different functions, which produce different
+                    filter values. The above filter will blur the image.
                 </p>
 
-                <Arrows prevPage="/beginner/page_4_beg" nextPage="/beginner/page_6_beg" pageNum={5} />
+                <Arrows
+                    prevPage="/beginner/page_4_beg"
+                    nextPage="/beginner/page_6_beg"
+                    pageNum={5}
+                />
             </div>
         </div>
     );

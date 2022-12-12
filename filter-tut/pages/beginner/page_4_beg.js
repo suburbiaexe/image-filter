@@ -12,15 +12,24 @@ export default function BegPageFour() {
 
             <div className={pageStyles.centerContainer}>
                 <p className={pageStyles.centerTextSmaller}>
-                    So...how do we actually "compute a function over each pixel's surrounding area"?
+                    So...how do we actually &quot;compute a function over each
+                    pixel&apos;s surrounding area&quot;?
                 </p>
                 <p className={pageStyles.centerText}>
-                    We use <span className={pageStyles.pinkAccentText}>convolution</span>. Here's how it works.
+                    We use{" "}
+                    <span className={pageStyles.pinkAccentText}>
+                        convolution
+                    </span>
+                    . Here&apos;s how it works.
                 </p>
             </div>
 
             <div className={pageStyles.mainContainer}>
-                <Arrows prevPage="/beginner/page_3_beg" nextPage="/beginner/page_5_beg" pageNum={4} />
+                <Arrows
+                    prevPage="/beginner/page_3_beg"
+                    nextPage="/beginner/page_5_beg"
+                    pageNum={4}
+                />
             </div>
         </div>
     );

@@ -30,8 +30,8 @@ export default function IntPageEight() {
                     <span className={pageStyles.pinkAccentText}>
                         new, filtered RGB value of the origin
                     </span>{" "}
-                    by computing a weighted sum of each surrounding pixel's RGB
-                    values, using the filter values as weights.
+                    by computing a weighted sum of each surrounding pixel&apos;s
+                    RGB values, using the filter values as weights.
                 </p>
                 <Arrows
                     prevPage="/intermediate/page_7_int"

@@ -19,7 +19,7 @@ export default function IntPageSix() {
                     <span className={pageStyles.pinkAccentText}>
                         convolution
                     </span>
-                    . Here's how it works.
+                    . Here&apos;s how it works.
                 </p>
             </div>
 
